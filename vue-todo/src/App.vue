@@ -17,24 +17,55 @@
           </div>
       </div>
 
-      <div id="container" style="display:inline-block">
-          <div class="container-title" style="display:inline-block; line-height: 50px; margin-top: 40px;" >
-              <p class="date"> Thursday, 10th </p><span class="btn">Dec</span>
-              <h2 class="title" >TODAY <span>is</span></h2>
-              <p>라라라라라랄ㄹ라ㄹ</p>
+      <div id="summary" style="display:inline-block">
+          <div class="summary-title" style="display:inline-block; margin-top: 150px;" >
+            <div style="line-height: 50px;">
+                <p class="date"> Thursday, 10th</p> <span class="btn">Dec</span>
+                <h2 class="title" >TODAY <span>is</span></h2>
+            </div>
+              <p style="font-family: 'Nanum Gothic', sans-serif; font-weight: 800"> > 오늘 할 일</p>
           </div>
-          
 
-          <div class="container-content" style="float:right">
-            가운데
-            <TodoHeader></TodoHeader>
+          <div class="summary-content" style="float:right; margin-top: 60px">
+            <TodoHeader></TodoHeader> 
             <TodoInput></TodoInput>
             <TodoList></TodoList>
             <TodoFooter></TodoFooter>
           </div>
       </div>
 
-      <div id="footer">footer</div>
+
+    <!-- code-->
+      <div id="summary" style="display:inline-block; height:400px; background:#f4f4f4;">
+          <div class="summary-title" style="display:inline-block; margin-top: 150px;" >
+            <div style="line-height: 50px;">
+                <p class="date"> </p> 
+                <!-- <span class="btn"></span> -->
+                <h2 class="title" > <span></span></h2>
+            </div>
+              <p></p>
+          </div>
+
+          <!-- <div class="summary-content" style="float:right">
+          </div> -->
+    </div>
+
+    <!-- code-->
+      <div id="summary" style="display:inline-block; ">
+          <div class="summary-title" style="display:inline-block; margin-top: 40px;" >
+            <div style="line-height: 50px;">
+                <p class="date"> </p> 
+                <!-- <span class="btn"></span> -->
+                <h2 class="title" > <span></span></h2>
+            </div>
+              <p></p>
+          </div>
+
+          <!-- <div class="summary-content" style="float:right">
+          </div> -->
+    </div>
+
+      <div id="footer">imyoly.v@gmail.com</div>
     </div>
 </template>
 
